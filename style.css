@@ -168,11 +168,56 @@ header {
   background-color: #222222;
   margin: 10px;
 }
+.tema1parent p {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema1parent iframe {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.tema1parent img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
 
 /* ..................................Tema2....................................... */
 .tema2 {
   background-color: #000000;
   margin: 10px;
+}
+.tema2parent p {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema2parent img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+.tema2parent h2 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema2parent h3 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
 }
 
 /* ..................................Tema3....................................... */
@@ -180,24 +225,130 @@ header {
   background-color: #222222;
   margin: 10px;
 }
-
+.tema3parent p {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema3parent img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+.tema3parent h2 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema3parent h3 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
 /* ..................................Tema4....................................... */
 .tema4 {
   background-color: #000000;
   margin: 10px;
 }
-
+.tema4parent p {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema4parent img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+.tema4parent h2 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema4parent h3 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
 /* ..................................Tema5....................................... */
 .tema5 {
   background-color: #222222;
   margin: 10px;
 }
-
+.tema5parent p {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema5parent img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+.tema5parent h2 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema5parent h3 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
 /* ..................................Tema6....................................... */
 .tema6 {
   background-color: #000000;
   margin: 10px;
 }
+.tema6parent p {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema6parent img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+.tema6parent h2 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.tema6parent h3 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+/* .................................mere-header............................... */
 @media (min-width: 750px) {
   main {
     max-width: 1200px;
@@ -239,6 +390,130 @@ header {
   nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* ..................layout..................... */
+  .tema1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: min-content;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .div4 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .div5 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .div6 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  .tema2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: min-content;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .div4 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .div5 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .div6 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  .tema3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: min-content;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .tema4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: min-content;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .tema5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: min-content;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .tema6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: min-content;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div3 {
+    grid-area: 2 / 2 / 3 / 3;
   }
 }
 @media (max-width: 750px) {
