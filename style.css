@@ -18,6 +18,9 @@ html {
   height: 100%;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 /* ..................................Header........................................ */
 header {
   display: flex;
