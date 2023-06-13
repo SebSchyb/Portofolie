@@ -163,6 +163,44 @@ header {
 #porto2 {
   font-size: 2.8rem;
 }
+
+/* .................................Om mig ......................................*/
+.ommigparent p {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.ommigparent img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+.ommigparent h2 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.ommigparent h3 {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+}
+.ommigparent li {
+  color: white;
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+  list-style: none;
+}
+
 /* ..................................Tema1....................................... */
 .tema1 {
   background-color: #222222;
